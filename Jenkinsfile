@@ -2,12 +2,12 @@ pipeline {
   agent any
 
   environment {
-    IMAGE = "azeshion21/demo-app"
+    IMAGE = "alvisahri"
     TAG = "latest"
     DOCKER_CRED = "docker-hub"
     KUBECONFIG_CRED = "kubeconfig-dev"
     NAMESPACE = "default"
-    HELM_RELEASE = "casestudy-jenkins1"
+    HELM_RELEASE = "case-study"
   }
 
   stages {
