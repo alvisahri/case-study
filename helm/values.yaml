@@ -1,4 +1,4 @@
 image:
-  repository: azeshion21/demo-app
+  repository: alvisahri
   tag: latest
 replicaCount: 1
